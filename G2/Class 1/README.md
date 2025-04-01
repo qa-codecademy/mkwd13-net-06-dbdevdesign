@@ -8,11 +8,11 @@ We often say that somewhere in the mid-20th century, we entered a new era - The 
 
 A database is not one single system that you can get and use. There are many database solutions, many database types, and many different approaches to how to manage and use the data in them. Depending on the product you are building, you can pick different databases that work best for that given situation. In the world of web development, for example, a database is used as a storage system for the back-end part of the solution. This database can be accessed and manipulated by a special querying language, but often there are libraries and frameworks used to create an extra layer of communication, so we can better create a bridge between our back-end code and the database.
 
-![Database concept](../img/databases.png)
+![Database concept](../../img/databases.png)
 
 ## Types of databases
 
-![Relational vs Non-Relational](../img/relational-vs-nonrelational.jpg)
+![Relational vs Non-Relational](../../img/relational-vs-nonrelational.jpg)
 
 ### Relational Databases
 
@@ -102,7 +102,7 @@ There is also an environment that provides a user interface for managing Microso
 
 > Note: This is your local server name for SQLExpress => localhost\SQLEXPRESS
 > Note: This is your connection string if you are trying to connect from code => Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
-> Note: In depth guide can be found [here](../InstallationGuide.md)
+> Note: In depth guide can be found [here](../../InstallationGuide.md)
 
 ## MSSQL Database and basic features
 

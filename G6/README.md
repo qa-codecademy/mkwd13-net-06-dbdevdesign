@@ -1,5 +1,5 @@
 # Group 3
 
 ## Contact
-- Trainer: [FullName]: [trainer@mail.com]
-- Assistant: [FullName]: [assistant@mail.com]
+- Trainer: Panche Manaskov: panemanaskov@gmail.com
+- Assistant: Aleksandar Milovski: aleksandarmilovski1@gmail.com

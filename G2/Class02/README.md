@@ -89,7 +89,7 @@ ORDER BY FirstName, LastName, Age DESC;
 
 ## Combining Sets
 
-![Unions](../img/union.png)
+![Unions](../../img/union.png)
 
 ### Union
 
@@ -234,13 +234,13 @@ Tables can relate to one another using foreign keys. But not all relationships b
   - We can't create a many-to-many relationship with only 2 tables. We need to create an extra table that will be a record keeper of which records are connected to which. Usually, these tables are called by combining the two many to many table names. Foreign keys are added to both tables and the foreign keys are connecting the tables to the extra table that will be a mediator between them.
   - Example: One student can have many subjects, but also, One subject can have many students. For this, we create a StudentSubject table that is a bridge between the two.
 
-![Relationships diagram](../img/relationships.png)
+![Relationships diagram](../../img/relationships.png)
 
 ## Join
 
 When we work with databases, we get results in a result table with the requested records most of the time. Besides that, we can also combine tables and get results from a combined set of records. We can do this with JOINING tables together. Joining can be done multiple times and depending on what kind of combination we want, we can use multiple types of joins.
 
-![Join Types](../img/joins.png)
+![Join Types](../../img/joins.png)
 
 ```sql
 /* INNER JOIN - Joins two tables with all records that are matched in BOTH tables */

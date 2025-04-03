@@ -1,4 +1,4 @@
-USE SEDC_2020_G4
+USE SEDC
 -- Business Entity
 ------------------
 

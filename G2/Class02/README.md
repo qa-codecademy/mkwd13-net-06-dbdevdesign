@@ -89,7 +89,7 @@ ORDER BY FirstName, LastName, Age DESC;
 
 ## Combining Sets
 
-![Unions](../img/union.png)
+![Unions](../../img/union.png)
 
 ### Union
 

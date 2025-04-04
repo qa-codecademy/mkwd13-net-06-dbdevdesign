@@ -39,7 +39,7 @@ CREATE TABLE Employees (
 	[Gender] nchar(1) NULL, -- 'F' / 'M'
 	[HireDate] date NULL,
 	[NationalIdNumber] nvarchar(20) NULL
-CONSTRAINT [PK_Employees] PRIMARY KEY (Id)
+	CONSTRAINT [PK_Employees] PRIMARY KEY (Id)
 )
 
 CREATE TABLE Products (

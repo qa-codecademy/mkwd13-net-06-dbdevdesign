@@ -240,4 +240,42 @@ from TableA
 full join TableB On idA = idB
 GO
 
+select c.Name as CustomerName, p.Name as ProductName 
+from dbo.Customer c
+cross join dbo.Product p
 
+
+-- List all possible combinations of Customer names and Product names that can be ordered from specific customer 
+select * from Customer
+select * from Product
+
+SELECT c.Name as CustomerName, p.Name as ProductName
+from Customer c
+cross join Product p
+
+--List all Business Entities that have any Order 
+select * from [Order]
+select * from BusinessEntity
+
+SELECT distinct b.Name as BusinesEntity
+from [Order] o
+inner join BusinessEntity b on o.BusinessEntityId = b.Id
+
+--List all Entities without orders
+SELECT distinct b.Name as BuisnisEntity
+FROM BusinessEntity b
+left join [Order] o on b.Id = o.BusinessEntityId
+where o.id is null
+
+
+--List all Customers without orders (using Right Join and using Left join)
+
+SELECT distinct c.Name 
+from Customer c
+left join [Order] o on o.CustomerId = c.Id
+where o.CustomerId is null
+
+SELECT distinct c.Name as CustomerName
+FROM [Order] o
+right join Customer c on c.Id = o.CustomerId
+where o.CustomerId is null

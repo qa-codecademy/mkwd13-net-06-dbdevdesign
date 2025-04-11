@@ -24,7 +24,7 @@ CREATE TABLE [Person] (
 CREATE TABLE Passport (
 	Id INT PRIMARY KEY,
 	PassportNumber NVARCHAR(50) NOT NULL,
-	PersonId INT UNIQUE,
+	PersonId INT UNIQUE -- with UNIQUE CONSTRAINT we are establishing the 1 : 1 relation,
 
 	CONSTRAINT FK_Passport_Person FOREIGN KEY (PersonId) REFERENCES Person(Id)
 )
